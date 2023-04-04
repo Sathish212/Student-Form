@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Enrollment Form</title>
+</head>
+<body>
+	<h1 style="text-align:center";>Student Enrollment Form</h1>
+</body>
+<br>
+<br>
+<form id="Enrollment-Form">
+	<label for="Roll_No">ROLL NUMBER:</label>
+	<input type="number" id="Roll_No" name="Roll_No" required>
+	<br>
+	<br>
+	<label for="Full_name">FULL NAME:</label>
+	<input type="text" id="Full_name" name="Full_name" required>
+	<br>
+	<br>
+	<label for="Class">CLASS:</label>
+	<input type="text" id="Class" name="Class" required>
+	<br>
+	<br>
+	<label for="Birth_date">BIRTH DATE:</label>
+	<input type="date" id="Birth_date" name="Birth_date" required>
+	<br>
+	<br>
+	<label for="Adress">ADRESS:</label>
+	<input type="text" id="Adress" name="Adress" required>
+	<br>
+	<br>
+	<label for="City">CITY:</label>
+	<input type="text" id="City" name="City" required>
+	<br>
+	<br>
+	<label for="State">STATE:</label>
+	<input type="text" id="State" name="State" required>
+	<br>
+	<br>
+	<label for="pincode">PINCODE:</label>
+	<input type="text" id="pincode" name="pincode" required>
+	<br>
+	<br>
+	<label for="Enrollment date">ENROLLMENT DATE:</label>
+	<input type="date" id="Enrollment date" name="Enrollment date" required>
+	<br>
+	<br>
+	<button type="submit" id="save-btn" disabled>Save</button>
+	<button type="button" id="update-btn" disabled>Update</button>
+	<button type="button" id="reset-btn" disabled>Reset</button>
+</form>
+</html>

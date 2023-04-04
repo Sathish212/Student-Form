@@ -1,0 +1,15 @@
+CREATE DATABASE EnrollmentData;
+
+USE EnrollmentData;
+
+CREATE TABLE STUDENT-TABLE (
+  Roll_No INT PRIMARY KEY,
+  Full_name VARCHAR(50) NOT NULL,
+  Class VARCHAR(10) NOT NULL,
+  Birth_date DATE NOT NULL,
+  Adress VARCHAR(100) NOT NULL,
+  City VARCHAR(100) NOT NULL,
+  State VARCHAR(100) NOT NULL,
+  Pincode INT NOT NULL,
+  Enrollment_Date DATE NOT NULL
+);
